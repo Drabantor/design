@@ -1,0 +1,106 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+/* Poor man's normalize */
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
+
+/* Hide the leaf logo */
+.site-logo {
+    display: none;
+}
+
+.outer-wrap {
+    width: 100%;
+    overflow: auto;
+}
+
+.inner-wrap {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.row::after {
+    overflow: auto;
+    clear: both;
+}
+
+/* Showing columns - testing */
+.region-main,
+.region-sidebar-left,
+.region-sidebar-right {
+    //background-color: pink;
+    overflow: auto;
+}
+
+/* Main and sidebears layout */
+.inner-wrap-main {
+    //.clearfix();
+    overflow: auto;
+}
+
+.region-main {
+    width: 70%;
+    margin-left: 10%;
+    float: left;
+    overflow: auto;
+
+    &.has-sidebar {
+        margin-left: 0;
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+        width: 60%;
+    }
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 30%;
+    float: left;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+}
+
+/* Footer layout */
+.footer-column {
+    width: 33%;
+    float: left;
+}
+
+.outer-wrap-footer {
+    background-color: #007;
+    color: #fff;
+}
+
+.inner-wrap-footer {
+    background-color: #007;
+    padding: 30px 0;
+}
+
+.region-footer > .block {
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.byline {
+    font-size: 13px;
+    float: left;
+    outline-style: single;
+    outline-color: #00008b;
+    background-color: white;
+}

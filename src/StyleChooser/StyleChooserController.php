@@ -49,7 +49,7 @@ class StyleChooserController implements ContainerInjectableInterface
      */
     public function initialize() : void
     {
-        foreach(glob("{$this->cssDir}/*.css") as $file) {
+        foreach (glob("{$this->cssDir}/*.css") as $file) {
             $filename = basename($file);
             $url = "{$this->cssUrl}/$filename";
             $content = file_get_contents($file);

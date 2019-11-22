@@ -285,7 +285,7 @@ $allowRemote = getConfig('remote_allow', false);
 
 if ($allowRemote && $passwordMatch !== false) {
     $cacheRemote = $cache->getPathToSubdir("remote");
-    
+
     $pattern = getConfig('remote_pattern', null);
     $img->setRemoteDownload($allowRemote, $cacheRemote, $pattern);
 
@@ -381,7 +381,7 @@ if ($dummyEnabled && $srcImage === $dummyFilename) {
                 matching file exists on the filesystem.',
                 404
             );
-    } 
+    }
 }
 
 if ($imagePathConstraint && !$dummyImage && !$remoteSource) {
@@ -417,9 +417,9 @@ $sizeConstant = getConfig('size_constant', function () {
     $gridGutterWidth = 10;
     $gridColumns     = 24;
 
-    for ($i = 1; $i <= $gridColumns; $i++) {
-        $sizes['c' . $i] = ($gridColumnWidth + $gridGutterWidth) * $i - $gridGutterWidth;
-    }
+for ($i = 1; $i <= $gridColumns; $i++) {
+    $sizes['c' . $i] = ($gridColumnWidth + $gridGutterWidth) * $i - $gridGutterWidth;
+}
 
     return $sizes;
 });

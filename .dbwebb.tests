@@ -1,0 +1,103 @@
+# --------------------------------------------------------------------------
+#
+# Init
+#
+dbwebb init-me
+
+
+
+# --------------------------------------------------------------------------
+#
+# Kmom01
+#
+
+#
+# lab environment
+#
+make -f example/make/Makefile
+
+
+
+#
+# redovisa
+#
+rsync -a example/redovisa me/
+cd me/redovisa && composer install
+
+cd me/redovisa && git init
+cd me/redovisa && git add .
+cd me/redovisa && git config user.email "mos@dbwebb.se"
+cd me/redovisa && git config user.name "Mikael Roos"
+cd me/redovisa && git commit -m "First commit"
+cd me/redovisa && git tag -a 1.0.0 -m "My first version"
+dbwebb validate redovisa
+
+
+
+#
+# Ready (make a copy to kmom01 to have as dev env)
+#
+cd me && rsync -a --delete --exclude vendor --exclude node_modules --exclude build redovisa kmom01/ && ln -sf ../redovisa/vendor kmom01/redovisa/
+dbwebb validate kmom01
+make dbwebb-inspect options="--yes --no-validate" what=kmom01
+
+
+
+# --------------------------------------------------------------------------
+#
+# Kmom02
+#
+
+
+
+
+
+# --------------------------------------------------------------------------
+#
+# Kmom03
+
+
+
+
+
+
+# --------------------------------------------------------------------------
+#
+# Kmom04
+#
+
+
+
+
+# --------------------------------------------------------------------------
+#
+# Kmom05
+#
+
+
+
+
+# --------------------------------------------------------------------------
+#
+# Kmom06
+#
+
+
+
+# --------------------------------------------------------------------------
+#
+# Kmom10
+#
+
+
+
+# --------------------------------------------------------------------------
+#
+# Inspect
+#
+#make dbwebb-inspect options="--yes --no-validate" what=kmom02
+#make dbwebb-inspect options="--yes --no-validate" what=kmom03
+#make dbwebb-inspect options="--yes --no-validate" what=kmom04
+#make dbwebb-inspect options="--yes --no-validate" what=kmom05
+#make dbwebb-inspect options="--yes --no-validate" what=kmom06
+#make dbwebb-inspect options="--yes --no-validate" what=kmom10
