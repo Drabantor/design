@@ -5083,11 +5083,7 @@ img {
 /* Header layout */
 .outer-wrap-header {
   background-color: #76b6e6;
-}
-.outer-wrap-header::after {
-  content: "";
-  display: block;
-  clear: both;
+  overflow: auto;
 }
 .inner-wrap-header {
   max-width: 100%;

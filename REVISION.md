@@ -1,14 +1,14 @@
 Revision history
 =================
 
-v1.0.0  (2019-11-12)
+v1.0.3  (2019-11-15)
 
-* adding revision history and license.
+* adding redovisa/kmom01.
 
-v2.0.0  (2019-11-14)
+v2.0.3  (2019-11-22)
 
 * adding redovisa/kmom02.
 
-v3.0.0  (2019-11-22)
+v3.0.0  (2019-11-29)
 
 * adding redovisa/kmom03.
