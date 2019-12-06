@@ -98,14 +98,19 @@
 /**
 * My own settings, not currently in their own module.
 */
-@bgColorHtml: #fff;
-@bgColorBody: #fff;
+// @bgColorHtml: #fff;
+// @bgColorBody: #fff;
+//
+// //Adapt the typographic grid to my present style
+// @fontFamilyHeadings: "sans-serif";//@fontFamilyGarmond;
+// @fontFamilyBody:     "sans-serif";//@fontFamilyMyriadPro;
+// @fontFamilyCode:     "sans-serif";//@fontFamilyCourier;  "monospace";
+//
+// // Adapt magic number and base fontsize
+// @magicNumber:  22px; // 24px
+// @fontSizeBody: 30px; //16px
 
-//Adapt the typographic grid to my present style
-@fontFamilyHeadings: "sans-serif";//@fontFamilyGarmond;
-@fontFamilyBody:     "sans-serif";//@fontFamilyMyriadPro;
-@fontFamilyCode:     "sans-serif";//@fontFamilyCourier;  "monospace";
-
-// Adapt magic number and base fontsize
-@magicNumber:  22px; // 24px
-@fontSizeBody: 30px; //16px
+/**
+*colorful style - Loads last
+*/
+@import "module/colorful.less";

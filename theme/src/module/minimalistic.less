@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* color variables */
+@colorBody: #333;
+@bgColorBody: #fff;
+@bgColorHtml: #ccc;
+@accentBGColor: #fff;
+@accentFontColor: #fff;
+
+
+//Adapt the typographic grid to my present style
+@fontFamilyHeader: 'Source Sans Pro', sans-serif;
+@fontFamilyBody: 'Source Sans Pro', sans-serif;
+//@fontFamilyCode: "sans-serif";
+
+@lineheight: 1.4;
+@mainFontSize: 1rem;
+@mainFontWeight: 400;
+@headerFontWeight: 200;
+
+
+// Adapt magic number and base fontsize
+@magicNumber:  22px; // 24px
+@fontSizeBody: 30px; //16px
+
+
+
+
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #424242;
+@bgColorBody: #fff;
+@colorBody: #333;
+//@fontFamilyBody: serif;
+
+
+/* Hide the leaf logo */
+.site-logo {
+display: none;
+}
+
+.site-logo-text {
+     display: none;
+}
+
+.row::after {
+ overflow: auto;
+ clear: both;
+}
+
+.region-flash {
+    display: none;
+}
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    font: 100.01%/2 courier;
+    // margin: 0;
+    // padding: 0;
+    // color: @colorBody;
+    // background-color: @bgColorBody;
+    // #desinax-hgrid.font(@fontSizeBody); // Activate the grid base font
+    //font: 100.01%/1 @fontFamilyBody;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+
+a {
+    color: goldenrod;
+}
+
+a:visited {
+    color: #8282ea;
+}
+
+a:hover {
+    color: #ffc67a;
+}
+
+figure {
+    font-size: 1em;
+    font-style: italic;
+}
+
+.inner-wrap {
+    #desinax-vgrid.grid(1100px);
+    background-color: beige;
+    color: black;
+    padding: 1em;
+}
+
+/* Header layout */
+.outer-wrap-header {
+    //background-color: #bbb;
+    //.clearfix();
+    //overflow: auto;
+}
+
+.inner-wrap-header {
+    #desinax-vgrid.grid(100%);
+    background-color: #bbb;
+}
+
+.rm-desktop {
+    background-color: #bbb;
+}
+
+.rm-default li ul {
+    background-color:  #bbb;
+}
+
+
+.outer-wrap-footer {
+    background-color: ;
+    color: aliceblue;
+}
+
+.inner-wrap-footer {
+ background-color: black;
+//padding: 30px 0;
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();

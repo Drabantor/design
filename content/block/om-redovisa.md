@@ -1,3 +1,3 @@
 #### Redovisa på GitHub
 
-Mitt kursrepo på Github: [repot för me/redovisa på GitHub](https://github.com/Drabantor/design).
+Här ligger alla revisioner av [mitt kursrepo i kursen design på Github:](https://github.com/Drabantor/design)

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* color variables */
+@colorBody: red;
+@bgColorBody: blue;
+@bgColorHtml: #FFC17D;
+@accentBGColor: #fff;
+@accentFontColor: #fff;
+
+
+//Adapt the typographic grid to my present style
+@fontFamilyHeader: 'Source Sans Pro', sans-serif;
+@fontFamilyBody: 'Source Sans Pro', sans-serif;
+//@fontFamilyCode: "sans-serif";
+
+@lineheight: 1.4;
+@mainFontSize: 1rem;
+@mainFontWeight: 400;
+@headerFontWeight: 200;
+
+
+// Adapt magic number and base fontsize
+@magicNumber:  22px; // 24px
+@fontSizeBody: 30px; //16px
+
+
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+// @bgColorHtml: #424242;
+// @bgColorBody: #fff;
+// @colorBody: #333;
+//@fontFamilyBody: serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    font: 100.01%/1.35  Georgia, Verdana;
+    font-size: 1.5em;
+    // margin: 0;
+    // padding: 0;
+    // color: @colorBody;
+    // background-color: @bgColorBody;
+    // #desinax-hgrid.font(@fontSizeBody); // Activate the grid base font
+    //font: 100.01%/1 @fontFamilyBody;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+a {
+    color: darkblue;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: black;
+}
+
+figure {
+    font-size: 1em;
+    font-style: italic;
+}
+
+
+.row {
+    background-color:#228AB3;
+}
+
+.inner-wrap {
+    #desinax-vgrid.grid(1100px);
+    background-color: #619DFF;
+    color: white;
+}
+
+/* Header layout */
+.outer-wrap-header {
+    //background-color: #FFB563;
+    //.clearfix();
+    //overflow: auto;
+}
+
+.inner-wrap-header {
+    #desinax-vgrid.grid(100%);
+    background-color: #FFB563;
+}
+
+.rm-desktop {
+    background-color: #228ab3;
+}
+
+// .rm-default li ul {
+//     background-color: #FFB563;
+// }
+
+/* Header layout */
+.outer-wrap-footer {
+    background-color: #228AB3;
+    //.clearfix();
+    //overflow: auto;
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();

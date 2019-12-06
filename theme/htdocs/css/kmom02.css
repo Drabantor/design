@@ -4986,10 +4986,13 @@ body {
   padding: 0;
   color: #333;
   background-color: #fff;
-  font: 100.01%/1 serif;
+  font: 100.01%/1.5 Verdana, Geneva, sans-serif;
 }
 img {
   max-width: 100%;
+}
+p {
+  margin-bottom: 24px;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer

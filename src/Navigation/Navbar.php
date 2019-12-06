@@ -182,9 +182,9 @@ class Navbar
     //         return true;
     //     }
     // },
-    // 
-    // 
-    // 
+    //
+    //
+    //
     // /**
     //  * Callback to check if current page is a decendant of the menuitem, this check applies for those
     //  * menuitems that has the setting "mark-if-parent" set to true.

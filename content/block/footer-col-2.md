@@ -1,3 +1,8 @@
-#### Footer col 2
+#### Om mina studier på BTH
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Länkar till som rör mina studier på Blekinge Tekniska Högskola.
+
+
+[Studenportalen BTH](https://studentportal.bth.se/page/hem)
+
+[Mitt Repo för me/redovisa på GitHub](https://github.com/Drabantor/design)

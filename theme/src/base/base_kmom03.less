@@ -12,17 +12,36 @@ html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    color: @colorBody;
-    background-color: @bgColorBody;
-    #desinax-hgrid.font(@fontSizeBody); // Activate the grid base font
+    font: 100.01%/1.6 Verdana, Geneva, sans-serif;
+    // margin: 0;
+    // padding: 0;
+    // color: @colorBody;
+    // background-color: @bgColorBody;
+    // #desinax-hgrid.font(@fontSizeBody); // Activate the grid base font
     //font: 100.01%/1 @fontFamilyBody;
 }
 
-img {
+img, embed, object, video {
     max-width: 100%;
 }
+
+a {
+    color: goldenrod;
+}
+
+a:visited {
+    color: #8282ea;
+}
+
+a:hover {
+    color: #ffc67a;
+}
+
+figure {
+    font-size: 1em;
+    font-style: italic;
+}
+
 
 // Activate grid and affect all typographic elements
 #desinax-hgrid.activateDefaultTypography();
