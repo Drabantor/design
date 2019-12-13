@@ -112,7 +112,7 @@ Samtliga tre hemsidor har färgscheman som är färggstarka. Man kan argumentera
 
 <h5>Typsnitt</h5>
 
-Ingen av sidorna har serifer i sina typsnitt. Serifer kan förknippas med tradition men också med exempelvis tidningbranshen. Även om alla tre klubbarna bildades på 1800 talet och således har en rik tradition, kan valet av san-serf bero på att man vill uppfattas som att vara klubbar i tiden, som skriver sin historia här och nu.
+Ingen av sidorna har serifer i sina typsnitt. Serifer kan förknippas med tradition men också med exempelvis tidningbranshen. Även om alla tre klubbarna bildades på 1800 talet och således har en rik tradition, kan valet av san-serif bero på att man vill uppfattas som att vara klubbar i tiden, som skriver sin historia här och nu.
 
 Referenser
 -----------------------

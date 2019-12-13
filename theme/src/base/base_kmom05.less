@@ -1,0 +1,79 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #424242;
+@bgColorBody: #fff;
+@colorBody: #333;
+//@fontFamilyBody: serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    font: 100.01%/1.6 Verdana, Geneva, sans-serif;
+    // margin: 0;
+    // padding: 0;
+    // color: @colorBody;
+    // background-color: @bgColorBody;
+    // #desinax-hgrid.font(@fontSizeBody); // Activate the grid base font
+    //font: 100.01%/1 @fontFamilyBody;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+a {
+    color: goldenrod;
+}
+
+a:visited {
+    color: #8282ea;
+}
+
+a:hover {
+    color: #ffc67a;
+}
+
+// figure {
+//     font-size: 1em;
+//     font-style: italic;
+// }
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+// &.left,
+// &.right {
+//     @media screen {
+//         @media (max-width: round(@maxContentWidth * 2 / 3)) {
+//             &.w50 {
+//                 margin-left: 0;
+//                 margin-right: 0;
+//                 float: none;
+//                 img {
+//                     width: @maxContentWidth * 2 / 3;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();

@@ -5234,7 +5234,7 @@ h2 {
   line-height: 1.17333333;
   font-weight: normal;
   margin-bottom: 21px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #CCC;
 }
 h2 + h3 {
   margin-top: 22px;
@@ -5244,7 +5244,7 @@ h3 {
   line-height: 1.25714286;
   font-weight: normal;
   margin-bottom: 21px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #EEE;
 }
 h3 + h4 {
   margin-top: 22px;
@@ -5254,7 +5254,7 @@ h4 {
   line-height: 1.46666667;
   font-weight: normal;
   margin-bottom: 21px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #EEE;
 }
 h4 + h5 {
   margin-top: 22px;
@@ -5263,7 +5263,7 @@ h5 {
   font-size: 1.25em;
   line-height: 1.17333333;
   margin-bottom: 21px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #EEE;
 }
 h5 + h6 {
   margin-top: 22px;
@@ -5272,7 +5272,7 @@ h6 {
   font-size: 1.25em;
   line-height: 1.17333333;
   margin-bottom: 21px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #EEE;
 }
 p {
   margin-bottom: 22px;
