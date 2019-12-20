@@ -1,5 +1,5 @@
 /*!
-* Stylesheet for design kmom03.
+* Stylesheet for design kmom04.
 *
 * This stylesheet is for the design course and kmom03 where we use LESS.
 */
@@ -5376,7 +5376,6 @@ hr::after {
   width: 101.04166667%;
   margin-left: -0.52083333%;
   margin-right: -0.52083333%;
-  margin-bottom: 12px;
 }
 .row::after {
   content: "";
@@ -5393,7 +5392,7 @@ hr::after {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  background-color: #76b6e6;
+  background-color: #5C8299;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5434,10 +5433,10 @@ hr::after {
 }
 /* Header layout */
 .rm-desktop {
-  background-color: #76b6e6;
+  background-color: #5C8299;
 }
 .rm-default li ul {
-  background-color: #76b6e6;
+  background-color: #5C8299;
 }
 .region-header-col-1,
 .region-header-col-3 {
@@ -5563,11 +5562,7 @@ hr::after {
   margin-right: 0.52083333%;
 }
 .outer-wrap-footer {
-  background-color: #007;
   color: aliceblue;
-}
-.inner-wrap-footer {
-  background-color: #007;
 }
 .byline {
   font-size: 13px;
@@ -5699,6 +5694,13 @@ figure {
 /* Header layout */
 .rm-desktop {
   background-color: #0a151f;
+}
+.region-header-col-1,
+.region-header-col-3 {
+  width: 15%;
+}
+.region-header-col-2 {
+  width: 70%;
 }
 .outer-wrap-footer {
   background-color: black;

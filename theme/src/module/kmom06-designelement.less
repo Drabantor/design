@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Jaldi:400,700|Sansita:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+
+/* color variables */
+@colorBody: black;
+@bgColorBody: grey;
+@bgColorHtml: black;
+@accentBGColor: #ccc;
+@accentFontColor: brown;
+
+
+//Adapt the typographic grid to my present style
+@fontFamilyHeader: 'Source Sans Pro', sans-serif;
+@fontFamilyBody: 'Source Sans Pro', sans-serif;
+//@fontFamilyCode: "sans-serif";
+
+@lineheight: 1.4;
+@mainFontSize: 1rem;
+@mainFontWeight: 400;
+@headerFontWeight: 200;
+
+
+// Adapt magic number and base fontsize
+@magicNumber:  22px; // 24px
+@fontSizeBody: 30px; //16px
+
+
+
+html {
+    background-image: url(vectors.jpg);
+    //background-size: contain;
+    background-repeat: repeat;
+    overflow-y: scroll;
+    //background-color: @bgColorHtml;
+    //background-image: url(kmom06.jpg);
+}
+
+body {
+    font-family: "Patrick Hand", cursive, "Verdana";
+    font-size: 1.5em;
+    //font: 100.01%/1.6 Verdana, Geneva, sans-serif;
+    // margin: 0;
+    // padding: 0;
+    //color: @colorBody;
+    //background-color: @colorBody;
+    // #desinax-hgrid.font(@fontSizeBody); // Activate the grid base font
+    //font: 100.01%/1 @fontFamilyBody;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+a {
+    color: goldenrod;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #ffc67a;
+}
+
+figure {
+    font-size: 1em;
+    font-style: italic;
+}
+
+.figure_left {
+    float: left;
+}
+
+// .row {
+//     margin-left: 1em;
+//     margin-right: 1em;
+// }
+
+
+
+.inner-wrap {
+    #desinax-vgrid.grid(1100px);
+    max-width: 1200px;
+    background-color: #5C8299;
+    //opacity: 0.5;
+    color: white;
+}
+
+/* Header layout */
+.outer-wrap-header {
+    //background-color: #ccc;
+    //.clearfix();
+    //overflow: auto;
+}
+
+//mitten
+.rm-desktop {
+    background-color: #5C8299;
+}
+
+// .rm-default li ul {
+//     background-color:  black;
+// }
+
+.region-header-col-1 {
+    width: 17%;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 2em;
+    font-stretch: expanded;
+    color: purple;
+}
+
+.region-header-col-2 {
+    width: 66%;
+    font-family: "Sansita";
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+.region-header-col-3 {
+    width: 17%;
+}
+
+.region-main {
+    padding: 1em;
+}
+
+.region-footer {
+    padding: 1em;
+}
+
+.rm-max .rm-small .rm-button {
+    color: black;
+}
+
+.outer-wrap-footer {
+    //background-color: #5C8299;
+    color: aliceblue;
+}
+
+.inner-wrap-footer {
+ //background-color:#5C8299;
+//padding: 30px 0;
+}
+
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();

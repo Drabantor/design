@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+
+/* color variables */
+@colorBody: black;
+@bgColorBody: grey;
+@bgColorHtml: black;
+@accentBGColor: #ccc;
+@accentFontColor: brown;
+
+
+//Adapt the typographic grid to my present style
+@fontFamilyHeader: 'Source Sans Pro', sans-serif;
+@fontFamilyBody: 'Source Sans Pro', sans-serif;
+//@fontFamilyCode: "sans-serif";
+
+@lineheight: 1.4;
+@mainFontSize: 1rem;
+@mainFontWeight: 400;
+@headerFontWeight: 200;
+
+
+// Adapt magic number and base fontsize
+@magicNumber:  22px; // 24px
+@fontSizeBody: 30px; //16px
+
+
+
+
+/**
+ * Base style to affect HTML elements on a general scale.
+//  */
+// @bgColorHtml: #424242;
+// @bgColorBody: #fff;
+// @colorBody: #333;
+// //@fontFamilyBody: serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    font: 100.01%/1.6 Verdana, Geneva, sans-serif;
+    // margin: 0;
+    // padding: 0;
+    //color: @colorBody;
+    background-color: @colorBody;
+    // #desinax-hgrid.font(@fontSizeBody); // Activate the grid base font
+    //font: 100.01%/1 @fontFamilyBody;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+a {
+    color: goldenrod;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #ffc67a;
+}
+
+figure {
+    font-size: 1em;
+    font-style: italic;
+}
+
+.figure_left {
+    float: left;
+}
+.inner-wrap {
+    #desinax-vgrid.grid(1100px);
+    max-width: 1200px;
+    background-color: #0a151f;
+    color: aliceblue;
+}
+
+/* Header layout */
+
+
+
+.outer-wrap-header {
+    //background-color: #ccc;
+    //.clearfix();
+    //overflow: auto;
+}
+
+.rm-desktop {
+    background-color: #0a151f;
+}
+
+// .rm-default li ul {
+//     background-color:  black;
+// }
+
+.region-header-col-1 {
+    width: 15%;
+    font: sans-seif;
+    font-style: italic;
+    font-size: 2em;
+    font-stretch: expanded;
+}
+
+.region-header-col-2 {
+    width: 70%;
+}
+
+.region-header-col-3 {
+    width: 15%;
+}
+
+.outer-wrap-footer {
+    background-color: black;
+    color: aliceblue;
+}
+
+.inner-wrap-footer {
+ background-color: black;
+//padding: 30px 0;
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();

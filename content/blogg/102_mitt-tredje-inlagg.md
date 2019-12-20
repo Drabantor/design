@@ -7,7 +7,7 @@ published: "2019-12-10"
 Promenad på Nobeldagen
 ==================================
 
-Traditionen påbjuder en lång promenad på Nobelförmiddagen.<!--more-->Temperaturen har sjunkit till -5 grader celsius och det är en aningen isigt på vägar och stigar.
+Traditionen påbjuder en långpromenad på Nobelförmiddagen. <!--more-->Temperaturen har sjunkit till -5 grader celsius och det är en aningen isigt på vägar och stigar.
 
 <figure class="figure center">
     <img src="image/promenad.jpg" alt="promenad">
