@@ -18,3 +18,6 @@ v5.0.0  (2019-12-13)
 
 v6.0.0  (2019-12-20)
 * adding redovisa/kmom06.
+
+v10.0.0  (2020-01-15)
+* adding redovisa/kmom10.

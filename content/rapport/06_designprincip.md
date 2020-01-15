@@ -106,7 +106,7 @@ De är samma designprinciper.
 
 Analys
 -----------------------
-De valda företagens verksamhet skiljer sig åt även om alla tre jobbar med turism. Höga Kustens utmärkande designpricip är harmoni och balans. Naturligt för den sortens webbsida. Liseberg har en designprincip som sticker ut och det är rörelse. Det är det första man ser när man kommer in på sidan vilket är naturligt med tanke på alla åkattraktioner. Skistars mest utmärkande designprincip är balans. Här skulle Skistar kunna jobba lite mer med rörelse som alternativ då avkoppling i fjällmiljö för det flesta innebär rörelse i olika former.
+De valda företagens verksamhet skiljer sig åt även om alla tre jobbar med turism. Höga Kustens utmärkande designpricip är harmoni och balans. Naturligt för den sortens webbsida. Liseberg har en designprincip som sticker ut och det är rörelse. Det är det första man ser när man kommer in på sidan vilket är naturligt med tanke på alla åkattraktioner. Skistars mest utmärkande designprincip är balans. Här skulle Skistar kunna jobba lite mer med rörelse som alternativ då avkoppling i fjällmiljö för de flesta innebär rörelse i olika former.
 
 Övrigt
 -----------------------
